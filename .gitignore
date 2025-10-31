@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Data
+data/train/
+data/test/
+*.jpg
+*.jpeg
+*.png
+*.csv
+
+# Models (too large for git)
+artifacts/*.keras
+
+# Keep essential artifacts
+!artifacts/classes.json
+!artifacts/class_distribution.png
+!artifacts/confusion_matrix.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log

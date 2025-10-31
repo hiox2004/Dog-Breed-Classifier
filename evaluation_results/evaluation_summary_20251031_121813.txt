@@ -1,0 +1,32 @@
+======================================================================
+MODEL EVALUATION REPORT
+======================================================================
+
+Evaluation Date: 2025-10-31 12:23:35
+Model Path: artifacts/best_model.keras
+
+MODEL ARCHITECTURE:
+  Total Parameters: 22,913,432
+  Trainable Parameters: 1,110,648
+  Non-trainable Parameters: 21,802,784
+
+DATASET INFORMATION:
+  Validation Samples: 2,045
+  Number of Classes: 120
+  Image Size: (299, 299)
+
+PERFORMANCE METRICS:
+  Validation Loss: 0.3678
+  Top-1 Accuracy: 89.29%
+  Top-3 Accuracy: 97.65%
+  Top-5 Accuracy: 99.17%
+
+AGGREGATE METRICS:
+  Macro Avg Precision: 0.8951
+  Macro Avg Recall: 0.8906
+  Macro Avg F1-Score: 0.8896
+
+======================================================================
+This report was generated automatically and can be reproduced
+by running: python evaluate_model.py --model artifacts/best_model.keras
+======================================================================

@@ -1,0 +1,10 @@
+tensorflow>=2.17,<2.21
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.1
+matplotlib>=3.6
+seaborn>=0.12
+opencv-python>=4.7
+pillow>=9.5
+tqdm>=4.65
+
