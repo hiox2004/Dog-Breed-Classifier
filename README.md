@@ -6,7 +6,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20.0-orange.svg)](https://www.tensorflow.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Accuracy](https://img.shields.io/badge/Accuracy-89.29%25-brightgreen.svg)](RESULTS.md)
 
 *Achieving 89.29% validation accuracy on 120 dog breeds using InceptionV3 transfer learning*
